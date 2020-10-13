@@ -1,2 +1,4 @@
-package btvn;public class bai1 {
+package btvn;
+
+public class bai1 {
 }
