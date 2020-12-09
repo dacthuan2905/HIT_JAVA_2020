@@ -30,7 +30,7 @@ public class RunMain {
 
             switch (choice){
                 case 1:
-                    CreatNewAccount();
+                    CreateNewAccount();
                     break;
                 case 2:
                     Logintoanexistingaccount();
@@ -46,7 +46,7 @@ public class RunMain {
     }
 
 
-    public static void CreatNewAccount(){
+    public static void CreateNewAccount(){
         Scanner scanner=new Scanner(System.in);
         String regexUser = "^[a-zA-Z0-9]{6,}$";
         String regexPass = "^(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%&*+-/^\\*])(?=.*[\\d])[a-zA-Z0-9!@#$%&*+-/^\\*]{8,}$";

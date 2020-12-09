@@ -75,4 +75,17 @@ public class Account {
     public void setCreatAt(String creatAt) {
         this.creatAt = creatAt;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "id=" + id +
+                ", fullName='" + fullName + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", creatAt='" + creatAt + '\'' +
+                '}';
+    }
 }
